@@ -4,9 +4,16 @@
   <groupId>com.rancho_smart</groupId>
   <artifactId>dto-common</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0</version>
   <name>dto-common</name>
   <url>http://maven.apache.org</url>
   <dependencies>
   </dependencies>
+  <distributionManagement>
+    <repository>
+        <id>github</id>
+        <name>GitHubPackages</name>
+        <url>https://maven.pkg.github.com/el-sebas-galeano/rs-dto-common</url>
+    </repository>
+  </distributionManagement>
 </project>
